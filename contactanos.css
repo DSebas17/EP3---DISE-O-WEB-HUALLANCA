@@ -1,0 +1,247 @@
+main{
+    font-family:"Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+#cabeza img{
+
+
+padding: 10px;
+}
+
+header{
+    position: sticky;
+    top: 10PX;
+}
+
+#cabeza{
+    background-color: #000000;
+    border-radius: 50px;
+    border: 5px solid #fbe407;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#fondo{
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: -100;
+
+}
+
+
+
+#menu a{
+    background-color: black;
+    border-color: black;
+    border-radius: 50px;
+    color: azure;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding-left: 5px;
+    padding-right: 5px;
+
+}
+
+
+#menu a:hover{
+    background-color: #f2a30b;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+#menu{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: black;
+    border-radius: 50px;
+    margin-top: -3%;
+    border: 5px solid 	#fbe407;
+    margin-bottom: 15px;
+    position: static;
+    margin-top: 10px;
+  
+}
+
+
+#todo{
+    display: flex;
+    flex-direction: row;
+    column-gap: 3%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: auto;
+    justify-content: center;
+
+    background: linear-gradient( to right, rgb(232, 188, 188) 25%, #fbe407 75%, rgb(197, 193, 193));
+
+    padding: 20px;
+    border-radius: 20px;
+   
+    
+}
+
+
+#arribita{
+    color:#020101;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+#colocard{
+    margin: 5px;
+    padding: 5px;
+    width: 400px;
+    
+}
+
+.cam{
+    padding: 10px;
+    width: 100%;
+    height: auto;
+    border: 3px solid rgb(0, 0, 0);
+    margin-top: 3px;
+    border-radius: 5px;
+
+}
+
+
+.mensaje{
+    padding: 10px;
+    width: 100%;
+    height: 100px;
+    border: 3px solid black;
+    margin-top: 3px;
+    border-radius: 5px;
+}
+
+.que{
+    margin-bottom: 15px;
+    color: rgb(0, 0, 0);
+}
+
+
+
+.ga{
+    padding: 10px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-size: 15px; 
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-left: 12px;
+   
+}
+
+
+
+#mapita{
+    width: 450px;
+    height: 650px;
+    border-radius: 5px;
+    
+}
+
+#mapax{
+    border-radius: 5px;
+    height: 500px;
+}
+
+#direccion h3{
+    font-size: 25px;
+    color: #000000;
+}
+
+#direccion p{
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    border: 3px solid;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+footer{
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.redes:hover{
+    background-color: #f2a30b;
+    transition: all 0.2s;
+    cursor: pointer;
+    border-radius: 40px;
+
+}
+.redes{
+    height: 60px;
+    width: 60px;
+
+}
+
+#derechos h2{
+    font-size: 20px;
+    display: flex;
+    color: #ffffff;
+    text-shadow: 3px 5px 8px black;
+    
+}
+
+
+#pie a{
+    background-color: black;
+    border-color: black;
+    border-radius: 50px;
+    color: azure;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding-left: 5px;
+    padding-right: 5px;
+
+}
+
+
+#pie a:hover{
+    background-color: #f2a30b;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+#pie{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: black;
+
+    margin-top: -3%;
+    border: 5px solid 	#fbe407;
+    margin-bottom: 15px;
+    position: static;
+    margin-top: 10px;
+  
+}
+
+
+#derechos h2{
+    font-size: 20px;
+    display: flex;
+    color: #ffffff;
+    text-shadow: 3px 5px 8px black;
+    
+}
