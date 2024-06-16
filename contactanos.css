@@ -160,6 +160,26 @@ header{
     height: 500px;
 }
 
+table,th,td{
+    border: 3px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+th{
+    background-color: rgb(217, 89, 89);
+    color: white;
+}
+
+#tabla2{
+    margin-left: 20%;
+}
+
+table h2{
+    padding-bottom: 5px;
+    border-bottom: 5px solid rgb(217, 89, 89);
+}
+
 #direccion h3{
     font-size: 25px;
     color: #000000;
